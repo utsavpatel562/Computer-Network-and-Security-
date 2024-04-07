@@ -5,12 +5,13 @@
 #include<string.h>
 void main()
 {
+    // Declaration of variables and arrays
     char ptext[20] = "\0", newptext[20] = "\0", etext[20] = "\0", newetext[20] = "\0",
     dtext[20] = "\0", newdtext[20] = "\0", abcd[26] = "abcdefghijklmnopqrstuvwxyz";
 
     int b[20], c[20], newmod[20], mod[20], mat[3][3], a[9];
     int A, i, j ,len ,len1 ,oldlen , sum = 0 , k = 0, x, y, div, DIV, m , n = 0;
-    clrscr();
+    clrscr(); // Clearing the console screen
 
     // Enter Plain Text //
     printf("Enter the plain text:");
