@@ -4,17 +4,21 @@
 #include<conio.h>
 void main()
 {
-    char pt[60];
-    char newpt[60] = {"\0"};
-    char et[60] = {"\0"};
-    char newet[60] = {"\0"};
-    char dt[60] = {"\0"};
-    char mat[12][5];
+    // Declaration of variables and arrays
+    char pt[60]; // Plain text
+    char newpt[60] = {"\0"}; // Modified plain text (without spaces)
+    char et[60] = {"\0"}; // Encrypted text
+    char newet[60] = {"\0"}; // Modified encrypted text (without spaces)
+    char dt[60] = {"\0"}; // Decrypted text
+    char mat[12][5]; // Matrix for columnar transposition
     int row, column = 5, len, i, j, newlen, k = 0, m;
+
+    // Clearing the console screen
     clrscr();
+    // Input of plain text
     printf("\n\nEnter Plain Text:");
     gets(pt);
-
+    // Remove spaces from plain text
     len = strlen(pt);
     for(i=0; i<len; i++)
     {
@@ -25,6 +29,7 @@ void main()
             newpt[newlen] = pt[i];
         }
     }
+    // Calculate the number of rows in the matrix
     // Getting Size of Row //
     newlen - strlen(newpt);
     row = newlen/column;
@@ -67,7 +72,7 @@ for(m = 1; m < column; m += 2)
     }  
     31
 }
-
+ // Remove blank spaces from encrypted text
 // Blank space Remove Code //
 newlen = strlen(et);
 for(i = 0; i < newlen; i++)
