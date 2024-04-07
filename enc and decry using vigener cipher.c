@@ -8,14 +8,18 @@ void main()
 	char str[100];
 	char cstr[100];
 	char code[5] = "SSPC",c;
-	char cap_code[5] = "SSPC";
+	char cap_code[5] = "SSPC"; // Assuming this is meant to store the uppercase version of the code 
 	int indexcode = 0, ascii;
 	int i,j,number,a,b, len = 0;
-	clrscr();
+	clrscr(); // Clearing the console screen
+	
+	// Input of plain text
 	printf("\n\n\t\tEnter Plain Text = ");
 	gets(str);
 	i = strlen(str);
 	len = strlen(code) - 1;
+	
+	// Encryption
 	for(j = 0; j < i; j++)
 	{
 		if(str[j] != '')
@@ -31,8 +35,8 @@ void main()
 		else
 			cstr[j] = '';
 	}
-	cstr[j] = '\0';
-	printf("\n\n\t\tKey Code = ");
+	cstr[j] = '\0'; // Adding null terminator to the end of the string
+	printf("\n\n\t\tKey Code = ");   // Outputting the key code
 	puts(cstr)
 	for(j = 0; j < i; j++)
 	{
@@ -57,9 +61,11 @@ void main()
 		}
 		else str[j] = '';
 	}
-	str[j] = '\0';
-	printf("\n\n\t\tEncrypted Text = ");
+	str[j] = '\0'; // Adding null terminator to the end of the string
+	printf("\n\n\t\tEncrypted Text = "); // Outputting the encrypted text
 	puts(str);
+
+	// Decryption (same as Encryption in this case, assuming it's intended to demonstrate decryption)
 	for(j = 0; j++)
 	{
 		ascii = (int)str[j];
@@ -83,8 +89,8 @@ void main()
 		}
 		else str[j] = '';
 	}
-	str[j] = '\0';
-	printf("\n\n\t\tPlain Text = ");
+	str[j] = '\0'; // Adding null terminator to the end of the string
+	printf("\n\n\t\tPlain Text = "); // Outputting the decrypted text
 	puts(str);
-	getch();	 
+	getch(); // Wait for a key press
 }
