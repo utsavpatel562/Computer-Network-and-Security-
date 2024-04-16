@@ -26,3 +26,6 @@ Encryption is the process of converting plaintext into ciphertext to secure it f
 
 <li><b>Caesar Cipher:</b> One of the simplest and most widely known encryption techniques. It shifts each letter of the plaintext by a fixed number of positions in the alphabet.</li>
 </ul>
+
+<h2><b>License</b></h2>
+This project is licensed under the MIT License - see the LICENSE file for details.
