@@ -1,6 +1,6 @@
 # Computer-Network-and-Security
 
-Encryption and Decryption Algorithms in C
+<h2><b>Encryption and Decryption Algorithms in C</b></h2>
 
 This repository contains C implementations of various encryption and decryption algorithms, including Hill Cipher, Columnar Transposition, Vigenère Cipher, and Caesar Cipher.
 
