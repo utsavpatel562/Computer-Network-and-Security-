@@ -16,7 +16,7 @@ This repository contains C implementations of various encryption and decryption 
 Encryption is the process of converting plaintext into ciphertext to secure it from unauthorized access. Decryption is the reverse process of converting ciphertext back into plaintext. This repository provides implementations of popular encryption and decryption algorithms in C language.
 
 <h2><b>Algorithms Implemented</b></h2>
-<ul type="number">
+<ul type="decimal">
 <li><b>Hill Cipher:</b> A polygraphic substitution cipher based on linear algebra. It operates on blocks of plaintext letters and uses matrix multiplication for encryption and decryption.</li>
 
 Columnar Transposition: A simple transposition cipher where the plaintext is reordered according to a specified columnar arrangement. The key determines the order of the columns.
