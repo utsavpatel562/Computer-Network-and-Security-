@@ -17,12 +17,12 @@ Encryption is the process of converting plaintext into ciphertext to secure it f
 
 <h2><b>Algorithms Implemented</b></h2>
 <ul type="decimal">
-<ol>
+
 <li><b>Hill Cipher:</b> A polygraphic substitution cipher based on linear algebra. It operates on blocks of plaintext letters and uses matrix multiplication for encryption and decryption.</li>
-</ol>
-Columnar Transposition: A simple transposition cipher where the plaintext is reordered according to a specified columnar arrangement. The key determines the order of the columns.
 
-Vigenère Cipher: A method of encrypting alphabetic text by using a simple form of polyalphabetic substitution. It uses a keyword to shift each letter of the plaintext by different amounts.
+<li><b>Columnar Transposition:</b> A simple transposition cipher where the plaintext is reordered according to a specified columnar arrangement. The key determines the order of the columns.</li>
 
-Caesar Cipher: One of the simplest and most widely known encryption techniques. It shifts each letter of the plaintext by a fixed number of positions in the alphabet.
+<li><b>Vigenère Cipher:</b> A method of encrypting alphabetic text by using a simple form of polyalphabetic substitution. It uses a keyword to shift each letter of the plaintext by different amounts.</li>
+
+<li><b>Caesar Cipher:</b> One of the simplest and most widely known encryption techniques. It shifts each letter of the plaintext by a fixed number of positions in the alphabet.</li>
 </ul>
