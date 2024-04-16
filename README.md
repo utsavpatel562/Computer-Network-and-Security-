@@ -4,12 +4,14 @@
 
 This repository contains C implementations of various encryption and decryption algorithms, including Hill Cipher, Columnar Transposition, Vigenère Cipher, and Caesar Cipher.
 
-Table of Contents
-Introduction
-Algorithms Implemented
-Usage
-Contributing
-License
+<h2><b>Table of Contents</b></h2>
+<ul type="disc">
+<li>Introduction</li>
+<li>Algorithms Implemented</li>
+<li>Usage</li>
+<li>Contributing</li>
+<li>License</li>
+</ul>
 Introduction
 Encryption is the process of converting plaintext into ciphertext to secure it from unauthorized access. Decryption is the reverse process of converting ciphertext back into plaintext. This repository provides implementations of popular encryption and decryption algorithms in C language.
 
