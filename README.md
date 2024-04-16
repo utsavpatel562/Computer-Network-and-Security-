@@ -6,11 +6,11 @@ This repository contains C implementations of various encryption and decryption 
 
 <h2><b>Table of Contents</b></h2>
 <ul type="disc">
-<li>Introduction</li>
-<li>Algorithms Implemented</li>
-<li>Usage</li>
-<li>Contributing</li>
-<li>License</li>
+<li style="#0B8ED9">Introduction</li>
+<li style="#0B8ED9">Algorithms Implemented</li>
+<li style="#0B8ED9">Usage</li>
+<li style="#0B8ED9">Contributing</li>
+<li style="#0B8ED9">License</li>
 </ul>
 Introduction
 Encryption is the process of converting plaintext into ciphertext to secure it from unauthorized access. Decryption is the reverse process of converting ciphertext back into plaintext. This repository provides implementations of popular encryption and decryption algorithms in C language.
